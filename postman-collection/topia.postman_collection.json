@@ -1,0 +1,49 @@
+{
+	"info": {
+		"_postman_id": "a278ac22-2165-4e9d-a9ea-3a85161ede19",
+		"name": "topia",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "4291802"
+	},
+	"item": [
+		{
+			"name": "fx",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/fx",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"fx"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "With Target Currency",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/fx/GBP",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"fx",
+						"GBP"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
